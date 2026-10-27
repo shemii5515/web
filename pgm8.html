@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Striped Table</title>
+
+    <style>
+        #StudentTable {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: sans-serif;
+        }
+
+        #StudentTable th {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: left;
+            background-color: #b22222;
+            color: white;
+            border: 1px solid grey;
+        }
+
+        #StudentTable td {
+            padding: 8px;
+            border: 1px solid grey;
+        }
+
+        #StudentTable tr:nth-child(odd){
+            background-color:#f2f2f2;
+        }
+
+        #StudentTable tr:nth-child(odd):hover {
+            background-color: burlywood;
+        }
+    </style>
+</head>
+
+<body>
+
+<table id="StudentTable">
+    <tr>
+        <th>SL.No</th>
+        <th>ADMISSION NO</th>
+        <th>NAME</th>
+        <th>EMAIL ID</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>01Mca2026</td>
+        <td>shemeema</td>
+        <td>Shemeema5515@gmail.com</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>02Mca2026</td>
+        <td>Anfidha</td>
+        <td>anfidha@gmail.com</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>03Mca2026</td>
+        <td>Hanoona</td>
+        <td>hanoona123@gmail.com</td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td>04Mca2026</td>
+        <td>Shilpa</td>
+        <td>shilpa@gmail.com</td>
+    </tr>
+
+    <tr>
+        <td>5</td>
+        <td>05Mca2026</td>
+        <td>Rushda</td>
+        <td>rushda23@gmail.com</td>
+    </tr>
+</table>
+
+</body>
+</html>
